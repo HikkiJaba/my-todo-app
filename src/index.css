@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #FF6B01;
+  --bg-color: #FFFFFF;
+  --text-color: #353535;
+  --card-bg: #f9f9f9;
+  --sidebar-bg: #f0f0f0;
+}
+
+[data-theme='dark'] {
+  --primary-color: #FF6B01;
+  --bg-color: #353535;
+  --text-color: #FFFFFF;
+  --card-bg: #444444;
+  --sidebar-bg: #2e2e2e;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body, .ant-layout, .ant-layout-sider, .ant-menu {
+  font-family: 'Roboto', sans-serif;
+}
