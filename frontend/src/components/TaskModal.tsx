@@ -121,7 +121,7 @@ function TaskModal({ visible, onCancel, onOk, initialValues, title }: TaskModalP
       await onOk(values);
       form.resetFields();
     } catch (error) {
-      console.error('Validation or submission failed:', error);
+      console.error('Ошибка:', error);
     }
   };
 

@@ -86,7 +86,7 @@ function MyCard({ id, title, text, status, onDelete, onUpdate, isFavorite, toggl
     if (onDelete) {
       onDelete(id);
     } else {
-      console.error('onDelete function is not provided');
+      console.error('onDelete не работает');
     }
   };
 
