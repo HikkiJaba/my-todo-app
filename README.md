@@ -30,6 +30,7 @@ docker-compose up --build
 ```
 
 2. **Альтернативный запуск (без Docker):**
+
 **Backend**:
 ```bash
 cd server
@@ -47,4 +48,4 @@ npm run dev
 ### Переключение режима
 В приложении предусмотрено переключение между двумя режимами:
 - **Онлайн**: используется внешний API [https://cms.laurence.host/api](https://cms.laurence.host/api)
-- **Локально**: обращения идут на локальный backend (localhost:3001)
+- **Локально**: обращения идут на локальный backend
